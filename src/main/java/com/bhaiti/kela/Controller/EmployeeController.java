@@ -34,6 +34,7 @@ public class EmployeeController
 	{
 			System.out.println("In register Employee");      
 	        EmployeeRegistration.getInstance().add(employee);
+	        
 	        return "viewDetails";
 	}
 	

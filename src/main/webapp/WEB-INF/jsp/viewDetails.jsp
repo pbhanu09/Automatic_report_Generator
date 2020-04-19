@@ -6,13 +6,16 @@
 <meta charset="ISO-8859-1">
 <title>Welcome to Daily Status Ack</title>
 </head>
-<body>
-<h1>Daily Status submit form</h1>
-<h2> Details have been submitted successfully !!!</h2>
+<body background="/images/background.jpg">
+<br />
+<h1 style="background-color: #FF0000">Daily Status submit form</h1>
+<h2 > Details have been submitted successfully !!!</h2>
+<br />
 <h4> Employee Name : ${employee.getName()} </h4>
 <h4> Employee PLID : ${employee.getPLID()} </h4>
 <h4> Test case Name : ${employee.getTestCaseName()} </h4>
 <h4> Test case ID: ${employee.getTestcaseID()} </h4>
 <h4> Comments: ${employee.getComments()} </h4>
+<h3 style=" position: absolute;background-color:red; bottom: 0; left: 0; width: 100%; text-align: right;">Consulting // Systems integration // Outsourcing // Business solutions</h3>
 </body>
 </html>
