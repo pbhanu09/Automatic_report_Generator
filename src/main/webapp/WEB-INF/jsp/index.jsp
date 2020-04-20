@@ -9,14 +9,15 @@
 <body background="/images/background.jpg">
     <div>
         <div>
-            <h1 style="width:100%; height: 70px; background-color: red;">Daily Status Report Generator</h1>
+            <h1 style="color: #ffffff; background-color: #ff0000">Daily Status Report Generator</h1>
          </div>
          <br />
-         <br />
-         <br />
          <div>
-            Click on this <strong><a href="getForm" style="background-color: #FF0000">link</a></strong> to submit the status.
+           <h2> Click on this <strong><a href="getForm" style="background-color: #FF0000">link</a></strong> to submit the status.</h2>
         </div>
     </div>
+    <div style="position:absolute;bottom: 0; left: 0; width: 100%; text-align: right;" >
+    <h3 style="color: #ffffff; background-color: #ff0000">Consulting // Systems integration // Outsourcing // Business solutions</h3>
+</div>
 </body>
 </html>

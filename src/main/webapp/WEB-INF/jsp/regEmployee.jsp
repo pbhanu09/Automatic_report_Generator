@@ -10,7 +10,7 @@
 <title>Welcome to CGI Status Form</title>
 </head>
 <body background="/images/background.jpg">
-<h2 style="background-color: #FF0000">Employee Details</h2>
+<h2  style="color: #ffffff; background-color: #ff0000">Employee Details</h2>
 <img src="/images/cgilogo.jpg" height="70" width="90" >
 <br />
 <br />
@@ -41,6 +41,8 @@
     <p></p>
     <input type="submit" value="Submit" style="background-color: #FFFF00">
 </form>
-<h3 style=" position: absolute;background-color:red; bottom: 0; left: 0; width: 100%; text-align: right;">Consulting // Systems integration // Outsourcing // Business solutions</h3>
+<div style="position:absolute;bottom: 0; left: 0; width: 100%; text-align: right;" >
+    <h3 style="color: #ffffff; background-color: #ff0000">Consulting // Systems integration // Outsourcing // Business solutions</h3>
+</div>
 </body>
 </html>
