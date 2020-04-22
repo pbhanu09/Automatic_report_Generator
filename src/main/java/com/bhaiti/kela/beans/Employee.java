@@ -3,9 +3,9 @@ package com.bhaiti.kela.beans;
 public class Employee
 {
 	String name;
-    String plid;
-    String testCaseName;
-    String testcaseID;
+    String status;
+    String task;
+    String taskID;
     String comments;
     
 	public String getName() {
@@ -14,23 +14,23 @@ public class Employee
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getPLID() {
-		return plid;
+	public String getStatus() {
+		return status;
 	}
-	public void setPLID(String plid) {
-		this.plid = plid;
+	public void setStatus(String status) {
+		this.status = status;
 	}
-	public String getTestCaseName() {
-		return testCaseName;
+	public String getTask() {
+		return task;
 	}
-	public void setTestCaseName(String testCaseName) {
-		this.testCaseName = testCaseName;
+	public void setTask(String task) {
+		this.task = task;
 	}
-	public String getTestcaseID() {
-		return testcaseID;
+	public String getTaskID() {
+		return taskID;
 	}
-	public void setTestcaseID(String testcaseID) {
-		this.testcaseID = testcaseID;
+	public void setTaskID(String taskID) {
+		this.taskID = taskID;
 	}
 	public String getComments() {
 		return comments;

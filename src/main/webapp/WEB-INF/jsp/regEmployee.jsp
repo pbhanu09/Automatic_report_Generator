@@ -10,39 +10,65 @@
 <title>Welcome to CGI Status Form</title>
 </head>
 <body background="/images/background.jpg">
+<font size="5" face="Comic Sans MS" >
 <h2  style="color: #ffffff; background-color: #ff0000">Employee Details</h2>
-<img src="/images/cgilogo.jpg" height="70" width="90" >
-<br />
-<br />
+</font>
+<!-- img src="/images/cgilogo.jpg" height="70" width="90" > -->
 <form method="post" action="registerEmployee">
-    Enter Employee Name :<select id="name" name=name>
-    <option value="NONE">--- Select ---</option> 
-   <option value="BhanuPrakash">BhanuPrakash</option>
-   <option value="Rajesh">Rajesh</option>
-   <option value="Priyanka">Priyanka</option>
-   <option value="SivaReddy">SivaReddy</option>
-   <option value="Soujanya">Soujanya</option>
-</select>   
+<font size="4" face="Comic Sans MS" >
+<table>
+	<TR>
+     <TD class = "select">Enter Employee Name:         
+    </TD>   
+    <TD ALIGN="left">
+       <select id="name" name=name>        
+                <option value="NONE">----Select----</option> 
+   				<option value="BhanuPrakash">BhanuPrakash</option>
+   				<option value="Rajesh">Rajesh</option>
+   				<option value="Priyanka">Priyanka</option>
+   				<option value="SivaReddy">SivaReddy</option>
+   				<option value="Soujanya">Soujanya</option>
+        </select>
+    </TD>  
+    </TR>
+	<TR>
+        <TD>Enter Task Details:</TD>
+        <TD ALIGN="left"><INPUT TYPE="text" SIZE="20" NAME="task">
+        </TD>
+    </TR>
+    <TR>
+        <TD>Enter Task ID:</TD>
+        <TD ALIGN="left"><INPUT TYPE="text" SIZE="15" NAME="taskID">
+        </TD>
+    </TR>
+    <TR>
+     <TD class = "select">Enter Status:         
+    </TD>   
+    <TD ALIGN="left">
+       <select id="status" name=status>        
+             <option value="NONE">---Select---</option> 
+   				<option value="Completed">Completed</option>
+   				<option value="Started">Started</option>
+   				<option value="WIP">WIP</option>
+   				<option value="NA">NA</option>
+       </select>
+    </TD>  
+    </TR>      
+    <TR>
+        <TD>Enter Comments:</TD>
+        <TD ALIGN="left"><INPUT TYPE="text" SIZE="25" NAME="comments">
+        </TD>
+    </TR>
+</table></font>
     <p></p>
-    Enter Test case Name: <input type="text" name="testCaseName">
-    <p></p>
-    Enter Test case ID:   <input type="text" name="testcaseID">
-    <p></p>
-    Enter Comments: <input type="text" name="comments">
-    <p></p>
-    Enter PLID:<select id="empID" name=PLID>
-    <option value="NONE">--- Select ---</option> 
-   <option value="PL05829">bhanu-01</option>
-   <option value="PL12824">rajesh-02</option>
-   <option value="PL0859">priyanka-03</option>
-   <option value="PL9345">soujanya-04</option>
-   <option value="PL12340">SivaReddy-05</option>
-</select>   
-    <p></p>
-    <input type="submit" value="Submit" style="background-color: #FFFF00">
+    <input type="submit" value="Submit" style="background-color:gray; border-color:black; color:white">
 </form>
+
 <div style="position:absolute;bottom: 0; left: 0; width: 100%; text-align: right;" >
-    <h3 style="color: #ffffff; background-color: #ff0000">Consulting // Systems integration // Outsourcing // Business solutions</h3>
+    <img src="/images/CGI_logo.jpg" height="90" width="200" align="left">
+    <font face="Verdana" >
+        <h3 style="color: #ffffff; background-color: #ff0000">Consulting // Systems integration // Outsourcing // Business solutions</h3>
+		</font>
 </div>
 </body>
 </html>
